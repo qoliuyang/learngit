@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+	<title> 使用JSON响应 </title>
+	<style type="text/css">
+		select {
+			width:160px;
+			font-size:11pt;
+		}
+	</style>
+</head>
+<body>
+<select name="category" id="category" size="4"
+	onchange="change(this.value);">
+	<option value="1" selected="selected">编程类</option>
+	<option value="2">小说类</option>
+	<option value="3">哲学类</option>
+</select>
+<table border="1" style="border-collapse:collapse;width:600px">
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>书名</th>
+			<th>作者</th>
+			<th>价格</th>
+		</tr>
+	</thead>
+	<tbody id="book">
+	</tbody>
+</table>
+<script type="text/javascript">
+// 定义了XMLHttpRequest对象
+var xmlrequest;
+// 完成XMLHttpRequest对象的初始化
+function createXMLHttpRequest()
+{
+	if(window.XMLHttpRequest)
+	{ 
+		// DOM 2浏览器
+		xmlrequest = new XMLHttpRequest();
+	}
+	else if (window.ActiveXObject)
+	{
+		// IE浏览器
+		try
+		{
+			xmlrequest = new ActiveXObject("Msxml2.XMLHTTP");
+		}
+		catch (e)
+		{
+			try
+			{
+				xmlrequest = new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			catch (e)
+			{
+			}
+		}
+	}
+}
+// 事件处理函数，当下拉列表选择改变时，触发该事件
+function change(id)
+{
+	// 初始化XMLHttpRequest对象
+	createXMLHttpRequest();
+	// 设置请求响应的URL
+	var uri = "chooseBook"
+	// 设置处理响应的回调函数
+	xmlrequest.onreadystatechange = processResponse;
+	// 设置以POST方式发送请求，并打开连接
+	xmlrequest.open("POST", uri, true); 
+	// 设置POST请求的请求头
+	xmlrequest.setRequestHeader("Content-Type"
+		, "application/x-www-form-urlencoded");
+	// 发送请求
+	xmlrequest.send("id="+id);
+}
+// 定义处理响应的回调函数
+function processResponse()
+{
+	// 响应完成且响应正常
+	if (xmlrequest.readyState == 4)
+	{
+		if (xmlrequest.status == 200)
+		{
+			var bookTb = document.getElementById("book");
+			// 删除bookTb原有的所有行
+			while(bookTb.rows.length > 0)
+			{
+				bookTb.deleteRow(bookTb.rows.length - 1);
+			}
+			// 获取服务器的JSON响应
+			// 并调用eval()函数将服务器响应解析成JavaScript数组
+			var books = eval(xmlrequest.responseText);
+			// 遍历数组，每个数组元素生成一个表格行
+			for (var i = 0  ; i < books.length ; i++)
+			{
+				var tr = bookTb.insertRow(i);
+				// 依次创建4个单元格，并为单元格设置内容
+				var cell0 = tr.insertCell(0);
+				cell0.innerHTML = books[i].id;
+				var cell1 = tr.insertCell(1);
+				cell1.innerHTML = books[i].name;
+				var cell2 = tr.insertCell(2);
+				cell2.innerHTML = books[i].author;
+				var cell3 = tr.insertCell(3);
+				cell3.innerHTML = books[i].price;
+			}
+		}
+		else
+		{
+			//页面不正常
+			window.alert("您所请求的页面有异常。");
+		}
+	}
+}
+</script>
+</body>
+</html>

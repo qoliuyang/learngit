@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="ajax_example_03"
+  id="myeclipse.1415710233049"
+  context-root="/ajax_example_01"
+  j2ee-spec="6.0"
+  archive="ajax_example_03.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

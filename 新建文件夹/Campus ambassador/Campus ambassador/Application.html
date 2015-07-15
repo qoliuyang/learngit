@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">    
+    <title>备考族在线报名表</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <link href="css/index.css" type="text/css" rel="stylesheet">
+    <!--jquery.mobile bg-->
+    <script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+    <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css">
+    <!--jquery.mobile end-->
+</head>
+
+<body>
+    <div data-role="page">
+        <!-- header bg-->
+        <div data-role="header" class="headertop">    
+            <p>jdv</p>            
+        </div>
+        <!-- header end-->
+        <!-- content bg-->
+        <div data-role="content" class="cont">
+            <form method="post" action="">
+                <div data-role="fieldcontain">
+                   <a href="index.html" target="_top">返回</a><br></br>
+                    <fieldset data-role="fieldcontain">
+                        <label for="fname">姓名：</label>
+                        <input type="text" name="fname" id="fname" placeholder="*必须填的..">
+                    </fieldset>
+
+                    <fieldset data-role="controlgroup" data-type="horizontal">
+                        <legend>请选择您的性别：</legend>
+                        <label for="male">男性</label>
+                        <input type="radio" name="gender" id="male" value="male" checked="checked">
+                        <label for="female">女性</label>
+                        <input type="radio" name="gender" id="female" value="female">
+                    </fieldset>
+
+                    <fieldset data-role="fieldcontain">
+                        <label for="email">邮箱：</label>
+                        <input type="email" name="email" id="email" placeholder="*必须填的..">
+                    </fieldset>
+
+                    <fieldset data-role="fieldcontain">
+                        <label for="tel">联系电话：</label>
+                        <input type="text" name="tel" id="tel" placeholder="*必须填的..">
+                    </fieldset>
+
+
+                    <fieldset data-role="fieldcontain">
+                        <label for="region">请选择您所在的地区：</label>
+                        <select name="region" id="region">
+                            <optgroup label="华北地区">
+                                <option value="beijing">北京</option>
+                                <option value="tianjin">天津</option>
+                                <option value="hebei">河北</option>
+                                <option value="shansi">山西</option>
+                                <option value="neimenggu">内蒙古</option>
+                            </optgroup>
+                            <optgroup label="华东地区">
+                                <option value="shanghai">上海</option>
+                                <option value="shandong">山东</option>
+                                <option value="jiangsu">江苏</option>
+                                <option value="zhejiang">浙江</option>
+                                <option value="anhui">安徽</option>
+                                <option value="fujian">福建</option>
+                                <option value="jiangxi">江西</option>
+                                <option value="taiwan">台湾</option>
+                            </optgroup>
+                            <optgroup label="华中地区">
+                                <option value="henan">河南</option>
+                                <option value="hubei">湖北</option>
+                                <option value="hunan">湖南</option>
+
+                            </optgroup>
+                            <optgroup label="华南地区">
+                                <option value="guangdong">广东</option>
+                                <option value="guangxi">广西</option>
+                                <option value="hainan">海南</option>
+
+                                <option value="xianggong">香港</option>
+                                <option value="aomen">澳门</option>
+                            </optgroup>
+                            <optgroup label="华北地区">
+
+                                <option value="liaoning">辽宁</option>
+                                <option value="jilin">吉林</option>
+                                <option value="heilongjiang">黑龙江</option>
+                            </optgroup>
+                            <optgroup label="西南地区">
+                                <option value="chongqing">重庆</option>
+                                <option value="sichuan">四川</option>
+                                <option value="guizhuo">贵州</option>
+                                <option value="yunnan">云南</option>
+                                <option value="xicang">西藏</option>
+                            </optgroup>
+                            <optgroup label="西北地区">
+                                <option value="shanxis">陕西</option>
+                                <option value="gansu">甘肃</option>
+                                <option value="qinghai">青海</option>
+                                <option value="ningxia">宁夏</option>
+                                <option value="xinjiang">新疆</option>
+                            </optgroup>
+                        </select>
+                    </fieldset>
+
+                    <fieldset data-role="fieldcontain">
+                        <label for="school">请选择您所在的高校：</label>
+                        <select name="school" id="school">
+                            <option value=""></option>
+                        </select>
+                    </fieldset>
+                    <fieldset data-role="fieldcontain">
+                        <label for="major">就读专业：</label>
+                        <input type="text" name="major" id="major" placeholder="*必须填的..">
+                    </fieldset>
+
+                    <fieldset data-role="fieldcontain">
+                        <label for="grade">所在年级：</label>
+                        <input type="text" name="grade" id="grade" placeholder="*必须填的..">
+                    </fieldset>
+                    <fieldset data-role="fieldcontain">
+                        <label for="QQ">QQ号码：</label>
+                        <input type="text" name="QQ" id="QQ">
+                    </fieldset>
+                    <fieldset data-role="fieldcontain">
+                        <label for="weibo">微博：</label>
+                        <input type="text" name="weibo" id="weibo">
+                    </fieldset>
+                    <fieldset data-role="fieldcontain">
+                        <label for="weixin">微信号：</label>
+                        <input type="text" name="weixin" id="weixin">
+                    </fieldset>
+                    <fieldset data-role="fieldcontain">
+                        上传文件：<input type="file" name="pic" accept="image/*">
+                    </fieldset>
+                </div>
+                <center>
+                   
+                    <input type="submit" data-inline="true" value="提交">
+                </center>
+            </form>
+        </div>
+        <!-- content end-->
+        <!-- footer bg-->
+        <div data-role="footer">
+            <h1>结束</h1>
+        </div>
+        <!-- footer end-->
+    </div>
+    <script>
+ /*   $(document).bind("mobileinit", function(){
+      $.mobile.autoInitialize=false; //删除这行配置参数就会出现渲染错误
+    });
+    $(function(){
+       function newDom(){
+      $("div[data-role='content']")
+      /*.append("<a href='web.html' data-role='button'>Link button</a>");
+      $.mobile.initializePage();//加载完成后开始渲染页面*/
+            }
+       setTimeout(newDom,500); //延时加载
+    });*/
+        
+    </script>
+</body>
+
+</html>

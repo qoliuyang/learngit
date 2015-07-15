@@ -1,0 +1,14 @@
+@charset "utf-8";
+/************************* contaion ********************************/
+/******* headertop *********/
+.headertop{ width: 100%; margin: 0 auto; display:block !important; overflow:visible !important; }
+.headertop p{ text-align: center; height: 30px; line-height: 30px; }
+
+
+/********** content ***************/
+.cont{ width: 70%; margin: 0 auto; background-color: #fff;}
+.cont a{ float: right; text-decoration: none;}
+form a{text-decoration: none; float: right;}   
+ 
+
+

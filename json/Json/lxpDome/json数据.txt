@@ -1,0 +1,61 @@
+{
+"success":"true",
+"code":200,
+"messages":null,
+"logString":"|null|",
+"planItem":
+  {
+    "id":1052,
+    "material":
+        {
+            "id":482,
+            "content":
+                {
+                    "type":1,
+                    "title":null,
+                    "content":"Why Integrity Matters\n\nWhat Is Integrity? \n\nThe key to integrity is consistency- not only setting high personal standards for oneself (honesty, responsibility, respect for others, fairness) but also living up to those standards each and every day. One who has integrity is bound by and follows moral and ethical (道德上的) standards even when making life’s hard choices, choices which may be clouded by stress, pressure to succeed, or temptation. \n\nWhat happens if we lie, cheat, steal, or violate other ethical standards? We feel disappointed in ourselves and ashamed. But a lapse (缺失) of integrity also affects our relationships with others. Trust is essential in any important relationship, whether personal or professional. Who can trust someone who is dishonest or unfair? Thus integrity must be one of our most important goals. \n\nRisky Business \n\nWe are each responsible for our own decisions, even if the decision, making process has been undermined by stress or peer pressure. The real test of character is whether we can learn from our mistake, by understanding why we acted as we did and then exploring ways to avoid similar problems in the future. \n\nMaking ethical decisions is a critical part of avoiding future problems. We must learn to recognize risks, because if we can’t see the risks we’re taking, we can’t make responsible choices. To identify risks, we need to know the rules and be aware of the facts. For example, one who doesn’t know the rules a about plagiarism (剽窃) may accidentally use words or ideas without giving proper credit or one who fails to keep careful research notes may unintentionally fail to quote and cite sources as required. But the fact that such a violation is \"unintentional\" does not excuse the misconduct, Ignorance is not a defense. \n\n\"But Everybody Does It\" \n\nMost people who get in trouble do know the rules and facts but manage to fool themselves about the risks they’re taking by using excuses: \"Everyone else does it.\" \"I’m not hurting anyone\", or \"I really need this grade.\" Excuses can get very elaborate: \"I know I’m look at another’s exam, even though I’m supposed to keep my eyes on my own paper, but that’s not cheating because I’m just checking my answers, not copying.\" We must be honest about our actions and avoid excuses, if we fool ourselves into believing we’re not doing anything wrong, we can’t see the real choice we’re making - and that leads to bad decisions. \n\nTo avoid fooling yourself, watch out for excuses and try this test: Ask how you would feel if your actions were public and anyone could be watching over yore shoulder. If you’d rather hide your actions, that’s an indication that you’re taking a risk and rationalizing it to yourself. \n\nEvaluating Risks \n\nTo decide whether a risk is worth taking, you must examine the consequences, in the future as well as right now, negative as well as positive, and to others as well as to yourself. Those who take risks they later regret usually focus on immolate benefits and simply haven’t considered what might go wrong. The consequences of getting caught are serious and may include a \"O\" on a test or assignment, an \"F\" in the class, suspension (暂令停学) or dismissal from school and a ruined reputation. In fact, when you break a role or law, you lose control over your life and give others the power to impose punishment that you have no control over. This is an extremely vulnerable (脆弱的) position. There may be some matters of life and death or highest principle, which might justify such a risk, but there aren’t many things that fall in this category. \n\nGetting Away with it - Or Not \n\nThose who don’t get caught pay an even higher price. A cheater doesn’t learn from the test, which deprives (剥夺) him her of an education. Cheating undermines confidence and independence: the cheater is a fraud, and knows that without dishonesty, he/she would have failed. Cheating destroys self-respect and integrity, leaving the cheater ashamed, guilty and afraid of getting caught. \n\nWorst of all, a cheater who doesn’t get caught the first time usually cheats again, not only because he/she is farther behind, but also because it seems \"easier.\" This slippery slope of eroding ethics and bigger risks leads only to disaster. Eventually, the cheater gets caught, and the later he/she gets caught, the worse the consequences. \n\nCheating Hurts Other, Too \n\nCheaters often feel invisible, as if their actions \"don’t count\" and don’t really hurt anyone. But individual choices have an intense cumulative (累积的) effect. Cheating can spread like a disease. Recent statistics suggest 30％ or more of college students cheat. If a class is graded on a curve, cheating hurts others’ grades. Even if there is no curve, cheating \"poisons\" the classroom, and others may feel pressured to join in. (\"If I don’t cheat I can’t compete with those who do\") Cheating also has a destructive impact on teachers. The real reward of goof teaching is seeing students learn. But a cheater says. \"I’m not interested in what you’re trying to teach, all I care about is stealing a grade, regardless of the effect on others.\" The end result is a destructive attack on the quality of your education. Finally, cheating can hurt the reputation of the university and harm those who worked hard for their degree. \n\nWhy Integrity Marten \n\nIf cheating becomes the norm, then we are in big trouble. We must rely on the honesty and good faith of others, if not, we couldn’t put money in the bank, buy food, clothing, or medicine from others, drive across a bridge, get on a plane, go to the dentist--the list is endless. There are many examples of the vast harm that is caused when individuals forget or ignore the effect their dishonesty can have. The savings and loan scandal, the stock market and junk bond swindles, and, of course, Watergate, have undermined the faith of many Americans in the integrity of political and economic leaders and society as a whole. Such incidents take a tremendous toll on our nation’s economy and our individual well-being. For example, but for the savings and loan debacle, there might be funds available to reduce the national debt and pay for education. \n\nIn sum, we all have a common stake in our school, our community, and our society. Our actions do matter. It is essential that we act with integrity in order to build the kind of world in which we want to live. ",
+                    "answers":null   
+				},
+             "audioUrl":null,
+             "videoUrl":null,
+             "imageUrl":null      
+        },
+     "question":"why must we learn to identify the risks we are going to take？",
+     "type":"快速阅读选择题",
+     "isMultiple":false,
+     "description":"2011年12月 英语四级 快速阅读选择题",
+     "isNeedSubmit":true,
+     "score":1.0,
+     "optionA":"To ensure we make responsible choices.",
+     "optionB":"To avoid being overwhelmed by stress.",
+     "optionC":"so that we don’t break any rules.",
+     "optionD":"so that we don’t run into trouble.",
+     "optionE":null,
+     "optionF":null,
+     "optionG":null,
+     "optionH":null,
+     "optionI":null,
+     "optionJ":null,
+     "optionK":null,
+     "optionL":null,
+     "optionM":null,
+     "optionN":null,
+     "optionO":null,
+     "optionP":null,
+     "optionQ":null,
+     "optionR":null,
+     "optionS":null,
+     "optionT":null,
+     "answer":"A",
+     "ratio":0.358,
+     "passage":"正直是什么？\n\n    正直的关键就是言行一致——除了给自己制定严格的做人准则（诚实、负责、尊敬他人、公正），还要每天坚持遵守这些准则。即使在作出事关一生的艰难抉择（这些抉择可能会受到精神压力、必须成功的压力和诱惑的影响）时，正直的人也会接受道德伦理的约束，遵循道德规则。\n\n    如果我们说谎、作弊、偷窃或违反其他道德准则，又会怎样？我们会对自己失望，会感到羞耻。但是缺少正直的品质也会影响我们与他人的关系。信任是任何重要的人际关系中比不缺少的部分，无论是个人关系，还是工作关系。如果一个人不诚实、不公正，又能得到谁的信任？因此，我们必须把正直作为最重要的目标之一。\n\n冒险行为\n\n    我们每个人都要为自己的决定负责，无论作出决定的过程是否收到内心的压力或同辈压力的影响。我们是否能从自己的错误中学习，理解自己当时那样做的理由，并探索避免将来再次发生类似问题的方法，是对我们品格的真正考验。\n\n    作出合乎道德的抉择是避免将来发生问题的关键步骤。我们必须学会识别风险，因为如果我们不能看清自己所冒的风险，就不能作出负责任的选择。要识别风险，我们需要懂得规则，看清事实。例如，一个不知道有的人，可能会在不经意间违反注明引用来源的要求。但是，并不能因为这种违规是“非故意的”，就成为不正当行为的借口。无知不能用来辩护。\n\n    “但是每个人都这么做”\n\n    大部分热出问题的人都知道规定和事实，却用借口来欺骗自己去冒风险：“别人都这么做”，“我没伤害任何人”，或者“我真的需要这门成绩”。他们在借口上煞费苦心：“我知道我在看别人的答案，但我没有作弊，我只是检查自己的答案，没有抄袭。”我们必须对自己的行为诚实，不找借口。如果我们自欺欺人，说自己我没有做错，我们就看不清自己真正作出的选择——这会导致恶劣的决定。\n\n    为了避免自欺欺人，我们要警惕借口，试试这个方法，问问自己，如果你的行为是公开的，每个人都有可能在监视你，你会有何感受。如果你宁愿隐藏自己的行为，这就表明你正在冒风险，并在为自己找借口。\n\n估量风险\n\n    要决定是否值得冒风险，你必须斟酌后果，不论将来的还是眼下的，不论是负面的还是正面的，也不论是对别人的还是对自己的。那些冒风险作出决定而事后又后悔的人，通常只关注眼前的利益，完全没有考虑可能出现实的问题。被抓住的后果很严重，可能包括考试或作业得0分、课程不及格、被暂令停学或开除以及名声扫地。实际上，每当你违反规定或法律，你就失去了对自己人生的控制，让别人能够对你施加超出你掌控的惩罚。这会让你陷入非常脆弱的境地。也许有些事情关乎生死或最高原则，可能会让冒险正当化，但是这样的事情并不多。\n\n侥幸逃脱——或者失败\n\n    没被抓到的人会付出更高的代价。作弊者没有从考试中学到倒吸，从而没有收到教育。作弊会损伤自信心和独立精神：作弊者是一个骗子，他明白如果不作弊，他就不会及格。作弊会摧毁自尊和正直，让作弊者感到羞耻、内疚、因害怕而提心吊胆。最糟的是，初次作弊没有被抓到的人，往往会再次作弊，不只是因为他已经落在后面，还因为这样看似更“容易”，这种道德的腐蚀和更高的风险就像一条搭话的斜坡，只会印向灾难。最终，作弊者会被抓住，并且他被抓的越晚，后果就越糟。\n\n作弊同样伤害他人\n\n    作弊者常常觉得别人察觉不到自己，就好像他们的行为“不算什么”，也不会真正伤害任何人。但是个人的选择有强烈的积累效应。作弊可以像疾病一样传播。最近的统计数据表明，30%或者更多的大学生会作弊。若果一个班级用成绩分布曲线来打分，作弊会危害到别人的成绩。就算不使用曲线，作弊也会“毒害”班级，让别人感到自己不得不假如作弊的行列。（“如果我不作弊，我就没法和作弊的竞争”）作弊对教师同样具有毁灭性的的影响。对于优秀的教学，真正的回报就是看到学生们会学的东西，但是一个作弊者说：我对你想教的东西不感兴趣，我只关心偷来一个成绩，不管对别人有什么影响。最终结果就是对你的教学质量一次毁灭性的的打击。最终，作弊会损害大学的名誉，上海那些为学位努力学习的人。\n\n为什么说正直重要\n\n    如果作弊成为常态，我们就有了大麻烦。我们必须依赖他人的诚实和守信。否则，我们没法把钱存进银行，没法从别人那里购买食物、衣服和药物，没法开车过一座桥，没法坐上一架飞机——后果数不完。一个人因为忘记或忽视欺骗所能带来的后果而造成巨大伤害的例子太多了。比如说水门事件，就曾破坏了许多美国人对政治、经济领导人和整个社会的信任。\n\n    总而言之，我们在学校，在社区、在社会上都有共同的利益。我们的行为很重要。为了建立一个我们乐于生活在其中的世界，我们必须保持正直。",
+     "explanation":"细节题 关键词是identify the risks，关键句是Making ethical decisions is a critical part of avoiding future problems. We must learn to recognize risks, because if we can't see the risks we're taking, we can't make responsible choices. 所以答案很明显是A。",
+     "mainPoint":"快速阅读",
+     "checkPoint":null,
+     "keyWords":null,
+     "sentence":"1.It is essential that we act with integrity in order to build the kind of world in which we want to live.\n\n【解析】本句为长句。It is that的强调句。\n\n【译文】为了建立一个我们乐于生活在其中的世界，我们必须保持正直。"
+  },
+"duration":0,
+"endTime":"2015-03-29 13:17:26",
+"startTime":"2015-03-29 13:17:26"
+}
